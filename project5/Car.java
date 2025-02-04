@@ -8,6 +8,10 @@
 //           Variables to create object for RacingCarApp
 //
 package project5;
+/**
+ * @author Jayden Briones
+ * @version 1.0
+ */
 public class Car {
     private static final int maxSpeed = 180;
     private int minSpeed = 0;
@@ -34,6 +38,9 @@ public class Car {
         return minSpeed;
     }
 
+    /** 
+   *  @param yearModel the yearModel is set
+    */
     public void setYearModel(int yearModel){
         this.yearModel = yearModel;
     }
