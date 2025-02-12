@@ -1,0 +1,17 @@
+Steps:
+Link File to Repo:
+git init
+git add .
+git commit -m "Adding New Files"
+git remote add origin https://github.com/Jaypb101/CS2400
+git branch -M main
+git push -u origin main
+
+Using Javadoc:
+Javadoc -d doc/ project5/*.java
+Look at the generated java doc in the folder
+
+Add the folder to the repo:
+git add doc/
+git commit -m "Added Javadoc"
+git push origin main
